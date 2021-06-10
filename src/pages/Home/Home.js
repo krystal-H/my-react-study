@@ -38,6 +38,7 @@ const Home = (props) => (
   </div>
 )
 // 将需要的state的节点注入到与此视图数据相关的组件上
+
 const mapStateToProps = ({ counter }) => ({
   count: counter.count,
   isIncrementing: counter.isIncrementing,
