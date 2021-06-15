@@ -24,8 +24,8 @@ const Home = (props) => (
     </p>
 
     <p>
-      <button onClick={props.increment}>Decrement</button>&nbsp;&nbsp;
-      <button onClick={props.incrementAsync} disabled={props.isDecrementing}>
+      <button onClick={props.decrement}>Decrement</button>&nbsp;&nbsp;
+      <button onClick={props.decrementAync} disabled={props.isDecrementing}>
         Decrement Async 异步减少
       </button>
     </p>
